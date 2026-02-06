@@ -1,0 +1,84 @@
+/* Estilos base de tu archivo miestilo.css */
+* { margin: 0px; padding: 0px; }
+
+body { 
+    text-align: center; 
+    background-color: #f0f0f0; 
+}
+
+#page { 
+    width: 960px; 
+    margin: 15px auto; 
+    text-align: left; 
+    background: #ffffff;
+}
+
+header { 
+    background: #9627a0; 
+    border: 1px solid #ecadff; 
+    padding: 20px; 
+    color: white;
+}
+
+/* --- HIPERENLACES (Propiedad :hover del PDF) --- */
+nav { background: #f394fc; padding: 5px 15px; }
+nav li { display: inline; list-style: none; padding: 5px; }
+
+nav a {
+    color: #800080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* El enlace cambia de color al poner el cursor encima */
+nav a:hover {
+    color: #ffffff;
+    background-color: #800080;
+}
+
+/* --- ESTRUCTURA DE COLUMNAS --- */
+main { float: left; width: 660px; padding: 20px; }
+
+aside { 
+    float: left; 
+    width: 220px; 
+    margin: 20px 0px; 
+    padding: 20px;
+    background: #f394fc; 
+}
+
+/* --- ESTILOS DE FORMULARIO (Propiedad :focus del PDF) --- */
+form { margin-top: 20px; }
+
+label { font-weight: bold; color: #4b0082; }
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Cuando el usuario hace clic en el cuadro (Resaltado del PDF) */
+input:focus, textarea:focus {
+    background-color: #fffbb8; /* El amarillo que menciona el PDF */
+    border: 2px solid #9627a0;
+    outline: none;
+}
+
+.boton {
+    background: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer { 
+    clear: both; 
+    text-align: center; 
+    padding: 20px; 
+    border-top: 2px solid #999999;
+    background-color: #f394fc;
+}

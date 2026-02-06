@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto - Blog de Angeles</title>
+    <meta name="author" content="Angeles">
+    <link href="estilo_blog.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="page">
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">principal</a></li>
+            <li><a href="#">fotos</a></li>
+            <li><a href="#">videos</a></li>
+            <li><a href="#">contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <div class="article_header">
+                <h2>Envíanos tus datos</h2>
+                <h3>Prometemos responder pronto</h3>
+            </div>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+
+                <p>
+                    <label for="correo">Email:</label><br>
+                    <input type="email" id="correo" name="correo">
+                </p>
+
+                <p>
+                    <label for="comentario">Mensaje:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5"></textarea>
+                </p>
+
+                <input type="submit" value="Enviar mensaje" class="boton">
+            </form>
+
+            <div class="article_footer">
+                <p>Asegúrate de rellenar los campos obligatorios</p>
+            </div>
+        </article>
+    </main>
+
+    <aside>
+        <h3>Info Adicional</h3>
+        <p>Este formulario usa la pseudo-clase :focus explicada en el PDF de CSS.</p>
+    </aside>
+
+    <footer>
+        <p>comentarios (0) - &copy; 2024 Blog de Angeles</p>
+    </footer>
+</div>
+</body>
+</html>
